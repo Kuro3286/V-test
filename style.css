@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI Semibold, sans-serif;
+}
+
+body {
+    background-color: #333;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.general .container {
+    display: flex;
+    position: relative;
+    padding: 80px 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    background-color: aqua;
+}
